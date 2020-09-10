@@ -8,6 +8,7 @@
    >
    > - 위와 같이 뒤에 `--typescript` 가 있으면 타입스크립트 설정이 적용된 프로젝트가 생성된답니다.
 3. **타입스크립트로 리액트 상태 관리하기**
+   > - 타입스크립트로 `useState`와 `useReducer`를 사용하여 상태를 관리해 봅니다.
 4. **TypeScript 와 Context API 활용하기**
 5. **TypeScript 에서 리덕스 프로처럼 사용하기**
 6. **타입스크립트에서 리덕스 미들웨어 사용하기 (redux-thunk, redux-saga)**
