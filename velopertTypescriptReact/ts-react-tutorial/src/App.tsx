@@ -5,6 +5,10 @@ import Counter from "./CounterReducer";
 import MyForm from "./MyForm";
 import ReducerSample from "./ReducerSample";
 
+// Context API 활용하기
+import ContextReducerSample from "./ContextReducerSample";
+import { SampleProvider } from "./SampleContext";
+
 function App() {
   const onClick = (name: string) => {
     console.log(`${name} says hello`);
@@ -23,6 +27,10 @@ function App() {
       <MyForm onSubmit={onSubmit} />
       <hr />
       <ReducerSample />
+      <hr />
+      <SampleProvider>
+        <ContextReducerSample />
+      </SampleProvider>
     </>
   );
 }
