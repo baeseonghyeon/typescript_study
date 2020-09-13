@@ -11,6 +11,6 @@
    > - 타입스크립트로 `useState`와 `useReducer`를 사용하여 상태를 관리해 봅니다.
 4. **[TypeScript 와 Context API 활용하기](./ts-react-tutorial)**
    > - State를 위한 Context 를 만들고, Dispatch를 위한 Context를 만듭니다. 그리고, 해당 Context에서 관리하고 있는 값을 쉽게 조회할 수 있도록 커스텀 Hooks 을 작성합니다.
-5. **[TypeScript 에서 리덕스 프로처럼 사용하기](./ts-react-redux-turorial)**
+5. **[TypeScript 에서 리덕스 프로처럼 사용하기](./ts-react-redux-tutorial)**
    > - TypeScript 에서 리덕스를 사용한 이후 `typesafe-actions`로 프로처럼 리팩토링 하기.
-6. **[타입스크립트에서 리덕스 미들웨어 사용하기 (redux-thunk, redux-saga)](./ts-react-redux-turorial-middleware)**
+6. **[타입스크립트에서 리덕스 미들웨어 사용하기 (redux-thunk, redux-saga)](./ts-react-redux-tutorial-middleware)**
